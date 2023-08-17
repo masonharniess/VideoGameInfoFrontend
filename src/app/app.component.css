@@ -2,7 +2,6 @@ header {
     background-color: #fff;
     height: 60px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -14,7 +13,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     height: 100%;
-    padding: 0 0 0 10px;
+    /* padding: 0 10px 0 10px; */
 }
 
 .navigation_logo_and_title img {
@@ -22,4 +21,25 @@ nav {
     height: auto;
     margin: 0;
     max-width: 38px;
+    padding: 0 10px;
 }
+
+.navigation_menu {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    height: 100%;
+}
+
+.navigation_menu_item {
+    display: inline;
+    padding: 1.25em 0.5em;
+    cursor: pointer;
+
+}
+
+.navigation_menu_item:hover {
+    color: #666;
+    background-color: #f2f2f2;
+}
+
