@@ -1,0 +1,25 @@
+header {
+    background-color: #fff;
+    height: 60px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 0 0 0 10px;
+}
+
+.navigation_logo_and_title img {
+    vertical-align: text-bottom;
+    height: auto;
+    margin: 0;
+    max-width: 38px;
+}
