@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {faHouse} from '@fortawesome/free-solid-svg-icons'
 
 @Component({
   selector: 'app-root',
@@ -6,6 +7,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'VideoGameInfoFrontend';
-  public fileName = 'app.component.html';
+  title = 'VideoGameInfoFrontend'
+  faHouse = faHouse
 }

@@ -48,6 +48,10 @@ nav {
     cursor: pointer;
 }
 
+.navigation_menu_item a {
+    padding: 10px;
+}
+
 .navigation_menu_item:hover {
     color: #666;
     background-color: #f2f2f2;
