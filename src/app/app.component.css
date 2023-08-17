@@ -16,12 +16,23 @@ nav {
     /* padding: 0 10px 0 10px; */
 }
 
+.navigation_logo_and_title {
+    display: flex;
+    align-items: center;
+}
+
 .navigation_logo_and_title img {
-    vertical-align: text-bottom;
     height: auto;
     margin: 0;
-    max-width: 38px;
+    max-width: 28px;
     padding: 0 10px;
+}
+
+.navigation_logo_and_title p {
+    display: inline-block;
+    font-size: 20px;
+    margin: 0;
+    font-weight: bold;
 }
 
 .navigation_menu {

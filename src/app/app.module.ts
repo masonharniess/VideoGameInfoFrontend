@@ -5,6 +5,8 @@ import { AppComponent } from './app.component';
 import { RouterModule } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome'
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -17,6 +19,7 @@ import { HomeComponent } from './home/home.component';
       {path: '', redirectTo: 'home', pathMatch: 'full'},
       {path: '**', redirectTo: 'home', pathMatch: 'full'},
     ]),
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

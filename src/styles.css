@@ -1,7 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap'); /* Google Fonts dependency */
+@import '~font-awesome/css/font-awesome.min.css';
 
 body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
     background-color: #edf2f5;
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }
