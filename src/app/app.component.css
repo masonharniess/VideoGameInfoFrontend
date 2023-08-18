@@ -48,8 +48,9 @@ nav {
     cursor: pointer;
 }
 
-.navigation_menu_item a {
+.navigation_menu_item p {
     padding: 10px;
+    display: inline;
 }
 
 .navigation_menu_item:hover {
