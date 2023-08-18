@@ -6,7 +6,10 @@ import { RouterModule } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { DeveloperListComponent } from './developer-list/developer-list.component';
+
+import { DeveloperModule } from './developer-module/developer.module';
+
+// import { DeveloperListComponent } from './developer-list/developer-list.component';
 
 
 @NgModule({
@@ -18,11 +21,12 @@ import { DeveloperListComponent } from './developer-list/developer-list.componen
     BrowserModule,
     RouterModule.forRoot([
       {path: 'home', component: HomeComponent},
-      {path: 'developers', component: DeveloperListComponent},
+      // {path: 'developers', component: DeveloperListComponent},
       {path: '', redirectTo: 'home', pathMatch: 'full'},
       {path: '**', redirectTo: 'home', pathMatch: 'full'},
     ]),
     FontAwesomeModule,
+    DeveloperModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
