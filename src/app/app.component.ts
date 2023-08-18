@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import {faHouse} from '@fortawesome/free-solid-svg-icons'
+import {faHouse, faList} from '@fortawesome/free-solid-svg-icons'
 
 @Component({
   selector: 'app-root',
@@ -9,4 +9,5 @@ import {faHouse} from '@fortawesome/free-solid-svg-icons'
 export class AppComponent {
   title = 'VideoGameInfoFrontend'
   faHouse = faHouse
+  faList = faList
 }
