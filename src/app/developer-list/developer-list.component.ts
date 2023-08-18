@@ -4,4 +4,6 @@ import { Component } from "@angular/core";
   templateUrl: './developer-list.component.html',
   styleUrls: ['./developer-list.component.css']
 })
-export class DeveloperListComponent {}
+export class DeveloperListComponent {
+  pageTitle = 'Developer List'
+}

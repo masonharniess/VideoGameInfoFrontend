@@ -11,7 +11,6 @@ import { DeveloperModule } from './developer-module/developer.module';
 
 // import { DeveloperListComponent } from './developer-list/developer-list.component';
 
-
 @NgModule({
   declarations: [
     AppComponent,
