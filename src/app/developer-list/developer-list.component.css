@@ -11,5 +11,17 @@ main {
 .main_title_container h1 {
   padding: 0 5px;
   margin: 0;
+}
 
+.developer_table {
+  width: 100%;
+}
+
+.developer_table th {
+  padding-right: 15px;
+}
+
+.developer_table tr {
+  text-align: left;
+  vertical-align: top;
 }
