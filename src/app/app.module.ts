@@ -8,6 +8,7 @@ import { HomeComponent } from './home/home.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 import { DeveloperModule } from './developer-module/developer.module';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
 
 // import { DeveloperListComponent } from './developer-list/developer-list.component';
 
@@ -18,6 +19,7 @@ import { DeveloperModule } from './developer-module/developer.module';
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
     RouterModule.forRoot([
       {path: 'home', component: HomeComponent},
       // {path: 'developers', component: DeveloperListComponent},

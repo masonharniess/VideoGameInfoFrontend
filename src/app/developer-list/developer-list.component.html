@@ -14,13 +14,13 @@
           </tr>
         </thead>
         <tbody>
-          <tr>
-            <td>1</td>
+          <tr *ngFor="let developer of developers">
+            <!-- <td>1</td>
             <td>Naughty Dog</td>
-            <td>Naughty Dog, LLC (formerly JAM Software, Inc.) is an American first-party video game developer based in Santa Monica, California.</td>
-            <!-- <td>{{developer.id}}</td>
+            <td>Naughty Dog, LLC (formerly JAM Software, Inc.) is an American first-party video game developer based in Santa Monica, California.</td> -->
+            <td>{{developer.id}}</td>
             <td>{{developer.name}}</td>
-            <td>{{developer.description</td> -->
+            <td>{{developer.description}}</td>
           </tr>
         </tbody>
       </table>
