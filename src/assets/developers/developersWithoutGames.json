@@ -1,17 +1,17 @@
-[
-  {
-      "id": 3,
-      "name": "Konami",
-      "description": "Konami Group Corporation, commonly known as Konami, is a Japanese multinational video game and entertainment company headquartered in Chūō, Tokyo."
-  },
-  {
-      "id": 1,
-      "name": "Naughty Dog",
-      "description": "Naughty Dog, LLC (formerly JAM Software, Inc.) is an American first-party video game developer based in Santa Monica, California."
-  },
-  {
-      "id": 2,
-      "name": "Rockstar North",
-      "description": "Rockstar North Limited (formerly DMA Design Limited) is a British video game development company and a studio of Rockstar Games based in Edinburgh."
-  }
-]
+// [
+//   {
+//       "id": 3,
+//       "name": "Konami",
+//       "description": "Konami Group Corporation, commonly known as Konami, is a Japanese multinational video game and entertainment company headquartered in Chūō, Tokyo."
+//   },
+//   {
+//       "id": 1,
+//       "name": "Naughty Dog",
+//       "description": "Naughty Dog, LLC (formerly JAM Software, Inc.) is an American first-party video game developer based in Santa Monica, California."
+//   },
+//   {
+//       "id": 2,
+//       "name": "Rockstar North",
+//       "description": "Rockstar North Limited (formerly DMA Design Limited) is a British video game development company and a studio of Rockstar Games based in Edinburgh."
+//   }
+// ]

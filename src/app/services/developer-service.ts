@@ -7,7 +7,7 @@ import { IDeveloper } from "../interfaces/developer";
   providedIn: 'root'
 })
 export class DeveloperService {
-  private developerUrl = '../../assets/developers/developersWithoutGames.json'
+  private developerUrl = 'https://localhost:7098/api/developers'
 
     constructor(private http: HttpClient) {}
 
